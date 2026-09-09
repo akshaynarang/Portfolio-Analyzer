@@ -1,2 +1,14 @@
-# Portfolio-Analyzer
-Portfolio Analyzer is a Python‑based risk and performance analytics engine designed to evaluate multi‑asset portfolios using institutional‑grade metrics. It extends beyond trade‑level analysis by focusing on portfolio‑level risk, allocation behavior, and return characteristics.
+# Trading Performance Analyzer
+
+A python tool to analyze trading performance metrics including P/L %, risk-reward ratio, and drawdown.(Incoming portfolio analyzer for calculating Max DD, VAR, and more)
+
+## Features 
+-Calculate Profit/Loss %
+-Calculate Stop Loss $ and Take Profit %
+-Risk/Reward (R/R) calculation
+-Max Drawdown (basic)
+
+## Example 
+'''python
+calculate_trade(100, 110, 120, 95)
+
